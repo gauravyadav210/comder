@@ -1,0 +1,140 @@
+body{margin:0;
+    padding: 0;
+
+
+background-color: rgb(255, 255, 255);}
+    
+    
+    
+    .icon{display: none;}
+    .active {
+        background-color: #04AA6D;
+      
+      }
+    .navbar::before{ content: "" ;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        height: 100% ;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    
+    
+    .navbar{display: flex;
+        
+    position: sticky;
+    top:0px;}
+    ul{display: flex ;}
+.navbar ul li{ 
+list-style: none;
+font-size: 1.5em}
+
+
+
+.navbar ul li a{display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 22px;
+    color: rgb(0, 0, 0)
+    
+    }
+.navbar ul li a:hover{color: black;
+    background-color: rgb(255, 152, 67);
+    
+    
+}
+
+
+
+.main{
+    margin-top: 10px;
+    padding-top:100px;
+    height: 750px;
+    background-image: url(mac.jpg);
+
+}
+
+.head{
+   padding-left: 30px;
+    font-size: 40px;
+    color: white;
+
+}
+.name1{
+ 
+    color: black;
+    background-color: white;
+}
+.name1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.name2:hover{
+    color: black;
+    background-color: rgb(255, 150, 80);
+}
+.main2{
+  
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 400px;
+}
+.insta{
+    padding-top: 30px;
+    
+    margin-left:20px;
+}
+.insta:hover{
+    background-color:white;
+    border-radius: 20px;
+    
+}
+
+
+.box2{
+   
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size:25px;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box3{
+    margin-top: 50px;
+    
+   height: 40px;
+   
+    background: tomato;
+    padding-left:150px;
+}
+.imga{
+    display:flex;
+    margin:20px;
+}
+
+.img1{
+   
+    background-size: 100%;
+   
+}
+
+.img2{
+    
+    background-size: 100%;
+    
+    margin-left:20px;
+}
+.ft{
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}

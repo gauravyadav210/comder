@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css"  media="(min-width:1230px) and (max-width: 5000px)" href="contactme.css"> 
+    <link rel="stylesheet" type="text/css" media="(min-width:700px) and (max-width: 1230px)" href="contactme1.css"> 
+    <link rel="stylesheet" type="text/css" media="(min-width:200px) and (max-width:700px)" href="contactme2.css"> 
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    <nav class="navbar" id="myLinks">
+        
+      
+   
+  
+    <ul >
+     
+      <li class="items" id="home">
+          <a  href="index.html">  Home        </a>
+      </li>
+      <li class="items">
+          <a href="Gallery.html"> Gallery </a>
+      </li>
+      <li class="items">
+          <a href="aboutme.html">  About Me </a>
+      </li>
+      <li class="items">
+          <a class="active" href="contactme.html"> Contact Me</a>
+      </li>
+   
+  </ul>  
+</nav>
+
+
+
+</div>
+
+<!-- https://formspree.io/f/xnqlzlqy -->
+<div class="form">            
+    <form  action="https://formspree.io/f/xnqlzlqy"
+    method="POST"
+        >
+        
+            <label class="bg" for="first">First Name:</label>                    
+            <input  type="text" id="first" name="first"><br>     
+            <label class="bg" for="last">Last Name:</label>           
+            <input  type="text" id="last" name="last"> <br>         
+         
+            <label  class="bg" for="myemail">Email Id:</label>          
+            <input type="email" id="myemail" name="myemail"><br>
+    
+            <label class="bg" for="phone">Contact Me:</label>         
+            <input  type="varchar" id="phone" name="phone"><br>   
+    
+            <label class="bg" for="review">Message:</label><br>
+    
+            <textarea  id="review" name="review" rows="4" cols="33"></textarea>
+              <div  class="submit">
+                  <input type="submit" value="Submit Now">
+                  <input type="reset" value="Reset Now">
+    
+              </div>
+              
+    </form>
+    </div>
+    <div class="ae">
+    <div class="a">
+        Contact Me:
+        
+        </div>
+        <div class="e" id="e1" >yadavgaurav2102000@gmail.com<br><div id="e2">
+                    gaurav.20scse1010805@galgotiasuniversity.edu.in</div></div>
+        
+                </div>
+
+
+    <footer>
+        <div class="ft">
+            
+            Copyright &copy;  Gaurav Kumar. All rights reserved!!
+            
+        </div>
+         
+     </footer>
+     <script>
+
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    
+</body>
+</html>
